@@ -66,6 +66,7 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 🖼️ Ảnh nền & kết quả Tải các ảnh:
 
 "bg.png" làm nền bảng chơi
+
 ![bg](https://github.com/user-attachments/assets/79a55b83-0de4-43f6-95f7-a709f46f3a1f)
 
 "logo.png" làm logo game
@@ -87,7 +88,9 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 🧪 Tệp liên quan:
 
 "res/gfx/": Hình ảnh (.png) cho sân golf, bóng, giao diện, logo.
+
 "res/font/": Font chữ "font.ttf".
+
 "res/sfx/": Âm thanh (.mp3) như swing, hole-in, charge.
 
 ✅ Điểm nổi bật
