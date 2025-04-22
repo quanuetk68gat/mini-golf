@@ -6,9 +6,9 @@ Trong phiên bản C++ của Mini-Golf, chương trình sử dụng các lớp n
 
 2. Cách tải
 
-Người chơi tải trực tiếp file "BattleShipsGame.zip", trong đó đã có đầy đủ tài nguyên để có thể chạy game.
+Người chơi tải trực tiếp file "Mini-Golf.zip", trong đó đã có đầy đủ tài nguyên để có thể chạy game.
 
-Sau khi tải thành công file ZIP, mở file và tìm file có tên "BattleShips" hoặc "start_game" để mở game.
+Sau khi tải thành công file ZIP, mở file và tìm file có tên "Mini-Golf" để mở game.
 
 3. Cách chơi
 
