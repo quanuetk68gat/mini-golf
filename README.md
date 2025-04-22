@@ -34,7 +34,7 @@ Sau khi người chơi hoàn thành hết các lỗ thì game sẽ hiện ra là
 
 ✅ Mẹo
 
-Quan sát kĩ các đường đi của bóng, có thể có có đường 1 gậy mà bóng của cả 2 lỗ sẽ đều vào thành công.
+Quan sát kĩ các đường đi của bóng, có thể có có đường 1 gậy mà bóng của cả 2 hố sẽ đều vào thành công.
 
 4. Về source code game:
 
