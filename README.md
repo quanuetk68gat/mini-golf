@@ -87,11 +87,11 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 
 🧪 Tệp liên quan:
 
-"res/gfx/": Hình ảnh (.png) cho sân golf, bóng, giao diện, logo.
+"resource/gfx/": Hình ảnh (.png) cho sân golf, bóng, giao diện, logo.
 
-"res/font/": Font chữ "font.ttf".
+"resource/font/": Font chữ "font.ttf".
 
-"res/sfx/": Âm thanh (.mp3) như swing, hole-in, charge.
+"resource/sfx/": Âm thanh (.mp3) như swing, hole-in, charge.
 
 ✅ Điểm nổi bật
 
