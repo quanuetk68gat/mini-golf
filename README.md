@@ -26,7 +26,7 @@ Và đây là màn hình đợi chính của game. Việc của người chơi l
 
 ![image](https://github.com/user-attachments/assets/d03ae723-af42-4a0e-8941-c0ade9ad86d3)
 
-Người chơi sẽ phải dùng chuột để định hướng/ đánh quả bóng golf vào lỗ, và cái khó của game là người chơi sẽ phải chơi 2 lỗ riêng biệt cùng 1 lúc.Và sẽ có 10 lỗ để cho người chơi.
+Người chơi sẽ phải dùng chuột để định hướng/ đánh quả bóng golf vào hố, và cái khó của game là người chơi sẽ phải chơi 2 hố riêng biệt cùng 1 lúc.Và sẽ có 10 hố để cho người chơi.
 ![image](https://github.com/user-attachments/assets/df0bc40a-6f98-432b-a7f7-9cd4b9c34da7)
 
 Sau khi người chơi hoàn thành hết các lỗ thì game sẽ hiện ra là đã hoàn thành và số gậy bạn đánh. Số gậy đánh càng ít thì sẽ càng thành công.
