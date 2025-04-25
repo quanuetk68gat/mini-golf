@@ -1,4 +1,10 @@
+⛳ Mini-Golf - Trò chơi golf cơ bản bằng C++
+
 1. Giới thiệu.
+
+Giới thiệu game: https://youtu.be/HvXyzj4D2dk
+
+Demo game: https://youtu.be/vSjxLlWfCZU
 
 Mini-Golf là một trò chơi đánh golf mini, nơi người chơi điều khiển bóng để đưa nó vào lỗ với số lần đánh ít nhất có thể. Trò chơi được lập trình bằng C++ nhờ vào khả năng tối ưu hiệu suất và xử lý logic game mạnh mẽ của ngôn ngữ này. Sử dụng thư viện SDL2, trò chơi cung cấp giao diện đồ họa trực quan, âm thanh sống động và các hiệu ứng mượt mà. Các tính năng như tính điểm, nhiều màn chơi, hiệu ứng bóng đổ, và âm thanh khi đánh bóng giúp mang lại trải nghiệm thú vị và sinh động cho người chơi.
 
