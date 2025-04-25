@@ -105,3 +105,10 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 - Cơ chế đánh bóng sử dụng lực dựa trên thời gian giữ chuột.
 - Có nhiều màn chơi khác nhau được nạp bằng "loadLevel()".
 - Âm thanh hiệu ứng giúp game thêm hấp dẫn.
+
+5. Nguồn dẫn tham khảo tạo nên game
+   
+- Trên cơ sở tham khảo về icon và đồ họa đã sử dụng trong game từ: https://github.com/PolyMarsDev/Twini-Golf
+- Làm logo của game trên web: https://www.flamingtext.com
+
+Hãy cùng tải và chơi game Mini-Golf để cùng chơi giải trí sau những giờ học căng thẳng nhé. Cảm ơn mọi người đã đọc hết và tham khảo trò chơi.
