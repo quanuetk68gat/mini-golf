@@ -1,6 +1,6 @@
-###⛳ Mini-Golf - Trò chơi golf cơ bản bằng C++
+### ⛳ Mini-Golf - Trò chơi golf cơ bản bằng C++
 
-##1. Giới thiệu.
+## 1. Giới thiệu.
 
 Giới thiệu game: https://youtu.be/HvXyzj4D2dk
 
@@ -10,19 +10,19 @@ Mini-Golf là một trò chơi đánh golf mini, nơi người chơi điều khi
 
 Trong phiên bản C++ của Mini-Golf, chương trình sử dụng các lớp như Ball, Tile, Hole, và RenderWindow để mô phỏng các thành phần trong trò chơi. Vị trí, vận tốc và trạng thái của bóng được xử lý thông qua các vector 2 chiều, trong khi các tile được sắp xếp để tạo thành các màn chơi khác nhau. Trò chơi được triển khai bằng giao diện đồ họa với thư viện SDL2, cho phép vẽ các đối tượng, xử lý âm thanh, font chữ, và sự kiện chuột. Người chơi điều khiển bóng bằng chuột để đưa bóng vào lỗ, và hệ thống sẽ tính điểm, đổi level, và hiển thị thông tin như số lượt đánh (strokes) và cấp độ (hole). Dự án có thể được mở rộng với nhiều màn chơi, hiệu ứng hình ảnh, hoặc hệ thống nhiều người chơi trên cùng màn hình.
 
-##2. Cách tải
+## 2. Cách tải
 
 Người chơi tải trực tiếp file "Mini-Golf.zip", trong đó đã có đầy đủ tài nguyên để có thể chạy game.
 
 Sau khi tải thành công file ZIP, mở file và tìm file có tên "Mini-Golf" để mở game.
 
-##3. Cách chơi
+## 3. Cách chơi
 
-#🎯 Mục tiêu
+# 🎯 Mục tiêu
 
 Người chơi sẽ đánh quả bóng golf vào lỗ, người chơi oánh càng ít gậy thì sẽ là điểm tốt nhất.
 
-#🕹️ Cách chơi
+# 🕹️ Cách chơi
 
 Đây là hình ảnh đợi load game, có tên mình và lớp.
 
@@ -38,13 +38,13 @@ Người chơi sẽ phải dùng chuột để định hướng/ đánh quả b�
 Sau khi người chơi hoàn thành hết các lỗ thì game sẽ hiện ra là đã hoàn thành và số gậy bạn đánh. Số gậy đánh càng ít thì sẽ càng thành công.
 ![image](https://github.com/user-attachments/assets/f943a132-58cd-4145-ad35-722770c02a76)
 
-#✅ Mẹo
+# ✅ Mẹo
 
 Quan sát kĩ các đường đi của bóng, có thể có có đường 1 gậy mà bóng của cả 2 hố sẽ đều vào thành công.
 
-##4. Về source code game:
+## 4. Về source code game:
 
-#🎮 Gameplay & Logic
+# 🎮 Gameplay & Logic
 
 - "Ball", "Hole", "Tile": Các class đại diện cho trái bóng, hố golf và mặt sân.
 - "loadTiles()": Hàm khởi tạo bản đồ cho từng level.
@@ -52,14 +52,14 @@ Quan sát kĩ các đường đi của bóng, có thể có có đường 1 gậ
 - "loadLevel(int level)": Reset trạng thái bóng và hố mỗi khi sang màn mới.
 - "getStrokeText()", "getLevelText()": Hiển thị số lượt đánh và tên màn chơi.
 
-#🖼️ Đồ họa và âm thanh (SDL2_image, SDL2_ttf, SDL2_mixer)
+# 🖼️ Đồ họa và âm thanh (SDL2_image, SDL2_ttf, SDL2_mixer)
 
 - "loadTexture()": Tải ảnh ".png" từ thư mục "res/gfx/".
 - "render()", "renderCenter()": Hiển thị bóng, điểm số, giao diện và các hiệu ứng động.
 - "TTF_OpenFont()": Tải font chữ để hiển thị điểm và tiêu đề.
 - "Mix_PlayChannel()": Chơi hiệu ứng âm thanh như đánh trúng hố, va chạm…
 
-#🕹️ Xử lý sự kiện (SDL_Event)
+# 🕹️ Xử lý sự kiện (SDL_Event)
 
 Toàn bộ sự kiện được xử lý **trực tiếp trong "update()" và "titleScreen()"**, gồm:
 
@@ -69,7 +69,7 @@ Toàn bộ sự kiện được xử lý **trực tiếp trong "update()" và "t
 
 Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấn mới.
 
-#🖼️ Ảnh nền & kết quả Tải các ảnh:
+# 🖼️ Ảnh nền & kết quả Tải các ảnh:
 
 "bg.png" làm nền bảng chơi
 
@@ -91,7 +91,7 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 
 ![point](https://github.com/user-attachments/assets/d9348bc7-664e-472d-9e52-0ed6f725f6a0)
 
-#🧪 Tệp liên quan:
+# 🧪 Tệp liên quan:
 
 "resource/gfx/": Hình ảnh (.png) cho sân golf, bóng, giao diện, logo.
 
@@ -99,14 +99,14 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 
 "resource/sfx/": Âm thanh (.mp3) như swing, hole-in, charge.
 
-#✅ Điểm nổi bật
+# ✅ Điểm nổi bật
 
 - Giao diện sinh động bằng SDL2 với hiệu ứng bóng và giao diện hoạt họa.
 - Cơ chế đánh bóng sử dụng lực dựa trên thời gian giữ chuột.
 - Có nhiều màn chơi khác nhau được nạp bằng "loadLevel()".
 - Âm thanh hiệu ứng giúp game thêm hấp dẫn.
 
-##5. Nguồn dẫn tham khảo tạo nên game
+## 5. Nguồn dẫn tham khảo tạo nên game
    
 - Trên cơ sở tham khảo về icon và đồ họa đã sử dụng trong game từ: https://github.com/PolyMarsDev/Twini-Golf
 - Làm logo của game trên web: https://www.flamingtext.com
