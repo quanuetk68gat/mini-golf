@@ -1,4 +1,4 @@
-### ⛳ Mini-Golf - Trò chơi golf cơ bản bằng C++
+# ⛳ Mini-Golf - Trò chơi golf cơ bản bằng C++
 
 ## 1. Giới thiệu.
 
@@ -18,11 +18,11 @@ Sau khi tải thành công file ZIP, mở file và tìm file có tên "Mini-Golf
 
 ## 3. Cách chơi
 
-# 🎯 Mục tiêu
+### 🎯 Mục tiêu
 
 Người chơi sẽ đánh quả bóng golf vào lỗ, người chơi oánh càng ít gậy thì sẽ là điểm tốt nhất.
 
-# 🕹️ Cách chơi
+### 🕹️ Cách chơi
 
 Đây là hình ảnh đợi load game, có tên mình và lớp.
 
@@ -38,13 +38,13 @@ Người chơi sẽ phải dùng chuột để định hướng/ đánh quả b�
 Sau khi người chơi hoàn thành hết các lỗ thì game sẽ hiện ra là đã hoàn thành và số gậy bạn đánh. Số gậy đánh càng ít thì sẽ càng thành công.
 ![image](https://github.com/user-attachments/assets/f943a132-58cd-4145-ad35-722770c02a76)
 
-# ✅ Mẹo
+### ✅ Mẹo
 
 Quan sát kĩ các đường đi của bóng, có thể có có đường 1 gậy mà bóng của cả 2 hố sẽ đều vào thành công.
 
 ## 4. Về source code game:
 
-# 🎮 Gameplay & Logic
+### 🎮 Gameplay & Logic
 
 - "Ball", "Hole", "Tile": Các class đại diện cho trái bóng, hố golf và mặt sân.
 - "loadTiles()": Hàm khởi tạo bản đồ cho từng level.
@@ -52,14 +52,14 @@ Quan sát kĩ các đường đi của bóng, có thể có có đường 1 gậ
 - "loadLevel(int level)": Reset trạng thái bóng và hố mỗi khi sang màn mới.
 - "getStrokeText()", "getLevelText()": Hiển thị số lượt đánh và tên màn chơi.
 
-# 🖼️ Đồ họa và âm thanh (SDL2_image, SDL2_ttf, SDL2_mixer)
+### 🖼️ Đồ họa và âm thanh (SDL2_image, SDL2_ttf, SDL2_mixer)
 
 - "loadTexture()": Tải ảnh ".png" từ thư mục "res/gfx/".
 - "render()", "renderCenter()": Hiển thị bóng, điểm số, giao diện và các hiệu ứng động.
 - "TTF_OpenFont()": Tải font chữ để hiển thị điểm và tiêu đề.
 - "Mix_PlayChannel()": Chơi hiệu ứng âm thanh như đánh trúng hố, va chạm…
 
-# 🕹️ Xử lý sự kiện (SDL_Event)
+### 🕹️ Xử lý sự kiện (SDL_Event)
 
 Toàn bộ sự kiện được xử lý **trực tiếp trong "update()" và "titleScreen()"**, gồm:
 
@@ -69,7 +69,7 @@ Toàn bộ sự kiện được xử lý **trực tiếp trong "update()" và "t
 
 Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấn mới.
 
-# 🖼️ Ảnh nền & kết quả Tải các ảnh:
+### 🖼️ Ảnh nền & kết quả Tải các ảnh:
 
 "bg.png" làm nền bảng chơi
 
@@ -91,7 +91,7 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 
 ![point](https://github.com/user-attachments/assets/d9348bc7-664e-472d-9e52-0ed6f725f6a0)
 
-# 🧪 Tệp liên quan:
+### 🧪 Tệp liên quan:
 
 "resource/gfx/": Hình ảnh (.png) cho sân golf, bóng, giao diện, logo.
 
@@ -99,7 +99,7 @@ Các biến "mouseDown" và "mousePressed" kiểm soát hành vi giữ và nhấ
 
 "resource/sfx/": Âm thanh (.mp3) như swing, hole-in, charge.
 
-# ✅ Điểm nổi bật
+### ✅ Điểm nổi bật
 
 - Giao diện sinh động bằng SDL2 với hiệu ứng bóng và giao diện hoạt họa.
 - Cơ chế đánh bóng sử dụng lực dựa trên thời gian giữ chuột.
